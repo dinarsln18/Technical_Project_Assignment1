@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Fredoka One', cursive;
+    color: #19445f;
+    margin-top: 20px;
+}
+
+.menu{
+    float: right;
+    font-family: 'Fredoka One', cursive;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color: #19445f;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* section img{
+    width: 300px;
+    padding: 50px;
+} */
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.kolom p{
+    font-family: comic sans-ms;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+#about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+#about img{
+    width: 200;
+    margin-right: 50px;
+}
+
+
+#about p{
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.skill{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    
+}
+
+.skill ul li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 30px;
+    background-color: #D8D9CF;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.skill ul li p{
+    font-size: 20px;
+}
+
+.skill ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.article{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.article ul li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 25px;
+    background-color: #D8D9CF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.article ul li a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.article ul li p{
+    font-size: 20px;
+}
